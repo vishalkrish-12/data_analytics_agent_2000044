@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+langchain
+langchain_community
+langchain_core
+pandas
+requests
+beautifulsoup4
+matplotlib
+pillow
+numpy
+python-multipart
+langchain-experimental
+python-dotenv
+openai
+duckdb
