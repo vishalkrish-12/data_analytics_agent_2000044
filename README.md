@@ -12,7 +12,7 @@ Unlock the power of data with an intelligent agent that answers your analytics q
 ## 🛠️ Tech Stack
 
 - Python
-- T5 Language Model
+- OpenAI Chat GPT
 - LangChain
 
 ## 💡 Usage
