@@ -3,8 +3,18 @@ import re
 from fastapi import FastAPI, Request
 import tempfile
 from agents import get_agent
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def extract_json_array(text):
     """
